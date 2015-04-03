@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lc2.randomworkoutgenerator" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:label=".BMICalc"
+            android:name="com.example.lc2.randomworkoutgenerator.BMICalc" >
+            <intent-filter >
+                <action android:name="com.example.lc2.BMICalc" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:label=".GeneralGoals"
+            android:name="com.example.lc2.randomworkoutgenerator.GeneralGoals" >
+            <intent-filter >
+                <action android:name="com.example.lc2.GeneralGoals" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:label=".ExerciseList"
+            android:name="com.example.lc2.randomworkoutgenerator.ExerciseList" >
+            <intent-filter >
+                <action android:name="com.example.lc2.ExerciseList" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:label=".Exercise"
+            android:name="com.example.lc2.randomworkoutgenerator.Exercise" >
+            <intent-filter >
+                <action android:name="com.example.lc2.Exercise" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:label=".Results"
+            android:name="com.example.lc2.randomworkoutgenerator.Results" >
+            <intent-filter >
+                <action android:name="com.example.lc2.Results" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
